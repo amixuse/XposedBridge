@@ -3,7 +3,12 @@ package android.content.res;
 import android.graphics.drawable.Drawable;
 
 public class TypedArray {
-	/*package*/ TypedArray(Resources resources, int[] data, int[] indices, int len) {
+	/** Only for API stubs creation, DO NOT USE! */
+	/*package*/ TypedArray() {
+		throw new UnsupportedOperationException("STUB");
+	}
+
+	protected TypedArray(Resources resources, int[] data, int[] indices, int len) {
 		throw new UnsupportedOperationException("STUB");
 	}
 
@@ -76,6 +81,10 @@ public class TypedArray {
 	}
 
 	public CharSequence[] getTextArray(int index) {
+		throw new UnsupportedOperationException("STUB");
+	}
+
+	public void recycle() {
 		throw new UnsupportedOperationException("STUB");
 	}
 }
